@@ -21,7 +21,9 @@ for(let char in charObj){
     if(charObj[char] == 1){
         return char
     }
+	
 }
+	return null
 }
-const input = prompt("Enter a string");
-alert(firstNonRepeatedChar(input)); 
+// const input = prompt("Enter a string");
+// alert(firstNonRepeatedChar(input)); 
